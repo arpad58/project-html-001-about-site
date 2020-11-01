@@ -6,36 +6,30 @@ body
     font-family: sans-serif, Arial, Helvetica;
 }
 
-header
-{
+header {
     background: #dddddd;
     padding: 20px;  
 }
 
-h1
-{
+h1 {
     margin-left: 25px;
 }
 
-nav
-{
+nav {
     background: #666666;
     color: #ffffff; 
     margin: 0;
 }
 
-nav ul.links
-{
+nav ul.links {
     margin: 0;
 }
 
-nav li
-{
+nav li {
     display: inline-block;
 }
 
-nav a
-{
+nav a {
     display: block;
     padding: 20px;
     padding-left: 20px;
@@ -45,18 +39,15 @@ nav a
     display: inline-block;
 }
 
-a
-{
+a {
     text-decoration: none;
 }
 
-main
-{
+main {
     background: #ffffff;
     padding: 25px;
     padding-top: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 
 .box {
@@ -65,53 +56,44 @@ main
     width: 100%;
 }
 
-img
-{
+img {
     width: 100%;
     height: auto;
 }
 
-.imgleft
-{
+.imgleft {
     padding-top: 5px;
 }
 
-.textright
-{
+.textright {
     padding: 20px;
 }
 
-.content
-{
+.content {
     padding: 30px;
 }
 
-.top
-{
+.top {
     display: inline-block;
 }
 
-div.gallery
-{
+div.gallery {
   margin: 5px;
   border: 1px solid #777777;
   float: left;
   width: 380px;
 }
 
-div.gallery img
-{
+div.gallery img {
     width: 100%;
     height: auto;
 }
 
-*
-{
+* {
     box-sizing: border-box;
 }
 
-.responsive
-{
+.responsive {
     padding: 0 6px;
     float: left;
     width: 33.33%; 
@@ -121,15 +103,15 @@ div.gallery img
     .responsive {
       width: 100%;
     }
+}
 
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-footer
-{
+footer {
     background: #999999;
     padding: 25px;
     height: 150px;
