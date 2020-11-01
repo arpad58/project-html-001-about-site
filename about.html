@@ -119,7 +119,7 @@
                         <fieldset>
                             <div>
                             <label for="name">Név: *</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" minlength="5" required>
                         </div>
                         <div>
                             <label for="email">Email cím: *</label>
@@ -127,10 +127,12 @@
                         </div>
                         <div>
                             <label for="comment">Üzenet:</label>
-                            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                            <textarea name="comment" id="comment" cols="30" rows="10" minlength="20"></textarea>
                         </div>
                         </fieldset>
-                        
+                        <div>
+                            <input type="button" value="Email elküldése">
+                        </div>
                     </form>
                 </div>
             </div>
