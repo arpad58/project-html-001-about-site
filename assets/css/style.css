@@ -65,6 +65,12 @@ main
     
 }
 
+img
+{
+    width: 100%;
+    height: auto;
+}
+
 .imgleft
 {
     padding-top: 5px;
