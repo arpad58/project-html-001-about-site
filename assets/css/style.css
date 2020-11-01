@@ -58,6 +58,10 @@ main
     width: ;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+}
 
 .top
 {
