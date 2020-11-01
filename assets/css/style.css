@@ -63,6 +63,16 @@ main
     align-items: center;
 }
 
+.imgleft
+{
+    padding-top: 5px;
+}
+
+.textright
+{
+    padding: 20px;
+}
+
 .top
 {
     display: inline-block;
