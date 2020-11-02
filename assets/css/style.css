@@ -67,12 +67,16 @@ img {
 
 .textright {
     padding: 20px;
+    max-width: 60%;
 }
 
 .content {
     padding: 30px;
 }
 
+div.content {
+    max-width: 33.33%;
+}
 .top {
     display: inline-block;
 }
