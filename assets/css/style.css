@@ -2,12 +2,12 @@ body
 {
     margin: 0;
     padding: 0;
-    background: #eeeeee;
+    background: #f0efef;
     font-family: sans-serif, Arial, Helvetica;
 }
 
 header {
-    background: #dddddd;
+    background: #f0efef;
     padding: 20px;  
 }
 
@@ -49,6 +49,7 @@ main {
     padding-top: 0;
     box-sizing: border-box;  
 }
+
 
 .box {
     display: flex;
@@ -123,7 +124,7 @@ div.gallery img {
 }
 
 footer {
-    background: #999999;
+    background: #666666;
     padding: 25px;
     height: 150px;
 }
