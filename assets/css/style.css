@@ -69,6 +69,7 @@ img {
 .textright {
     padding: 20px;
     max-width: 60%;
+    vertical-align: top;
 }
 
 .content {
@@ -123,8 +124,40 @@ div.gallery img {
     clear: both;
 }
 
+.behavior-box {
+    display: inline-block;
+    width: 25%;
+    margin: 4%;
+    background-color: #ffffff;
+    text-align: center;
+    height: 5em;
+    line-height: 5em;
+    font-size: 2em; 
+    border-radius: 3px;
+    border: solid 1px white;
+    box-shadow: 0 0 3px black;
+}
+
+
+
+.gallery-container img {
+    width: 31%;
+    margin: 1%;
+}
+
 footer {
     background: #666666;
     padding: 25px;
     height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .behavior-box {
+        width: 100%;
+    }
+    .gallery-container img {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
